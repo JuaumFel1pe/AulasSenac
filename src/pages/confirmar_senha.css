@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#senha{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#confirmar{
+    text-align: center;
+    text-decoration: none;
+
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#confirmar{
+    background-color: #0056b3;
+}
